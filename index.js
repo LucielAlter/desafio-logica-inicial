@@ -13,4 +13,3 @@ for(let i = 2; i<11; i++){
     o ++
     } while (o < 3 )
     console.log ("ola")
-    
