@@ -9,6 +9,9 @@ class Heroi {
   escrever(){
     console.log(`O heroi ${this.tipo} atacou usando ${this.ataque}`)
   }
+  ficha(){
+    console.log(`O heroi ${this.nome} de idade ${this.idade} escolheu ser ${this.tipo}`)
+  }
   ataque(){
     let ataque1 = ""
     switch (this.tipo) {
