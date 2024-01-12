@@ -37,7 +37,7 @@ const readline = require('readline')
   });
     rl.question("qual o seu nome: ", (nome1)=>  {  
         rl.question('Digite sua idade: ', (age) => {
-            rl.question('escolha uma classe entre Ninja, Mago, Guerreiro, Nonge: ', (classe) => {
+            rl.question('escolha uma classe entre Ninja, Mago, Guerreiro, Monge: ', (classe) => {
                 let HeroiF = new Heroi(nome1,age,classe)
              HeroiF.escrever()
                 rl.close();
